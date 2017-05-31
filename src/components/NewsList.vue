@@ -35,7 +35,7 @@
 			updateSource: function(source) {
 				axios.get(`https://newsapi.org/v1/articles?source=${source}&apiKey=c1e0589b24ef435db0c60099ec576a13`)
 					 .then(res => { 
-					 	console.log(res);
+					 	// console.log(res);
 					 	this.articles = res.data.articles;
 					 })
 			}
